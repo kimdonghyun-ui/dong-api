@@ -1,7 +1,3 @@
 module.exports = ({ env }) => ({
-  proxy: true,
-  url: env("APP_URL"), // Sets the public URL of the application.
-  app: {
-    keys: env.array("APP_KEYS"),
-  },
+  url: env("https://port-0-dong-api-4fju66f2clmsnljyj.sel5.cloudtype.app"),
 });
